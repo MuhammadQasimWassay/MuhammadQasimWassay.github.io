@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hassaanmughal.com/sitemap.xml
+Sitemap: https://MuhammadQasimWassay.github.io/sitemap.xml
