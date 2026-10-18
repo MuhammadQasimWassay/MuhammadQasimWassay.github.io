@@ -117,7 +117,7 @@ const PendulumBadge = () => {
     };
   }, []);
 
-  const badgeImage = theme === 'light' ? '/chainlocket-lightmodeimg.jpeg' : '/chainlocket.jpg.jpeg';
+  const badgeImage = theme === 'light' ? '/chainlocket-lightmode.jpg.jpeg' : '/chainlocket.jpg%20(2).jpeg';
 
   if (staticMode) {
     return (
