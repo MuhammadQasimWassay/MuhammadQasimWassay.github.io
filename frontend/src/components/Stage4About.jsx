@@ -5,10 +5,8 @@ import PendulumBadge from './PendulumBadge';
 import './Stage4About.css';
 
 const SOCIAL = {
-  github: 'https://github.com/hasaanmughal',
-  linkedin: 'https://www.linkedin.com/in/hassaan-mughal-605603249/',
-  instagram: 'https://www.instagram.com/hasaannmughal/',
-  twitter: 'https://x.com/hassaanmughal_',
+  github: 'https://github.com/MuhammadQasimWassay',
+  instagram: 'https://www.instagram.com/shiekh__qasim?rpxt=MTFteWJuMDhqNXk2cA%3D%3D&utm_source=qr',
 };
 
 const Stage4About = () => {
@@ -18,11 +16,11 @@ const Stage4About = () => {
         <StructuralNode size={14} color="#000" className="about-node" />
         <div className="about-title-block">
           <h2 className="about-title display-text">
-            {applySlashRule('ABOUT')} {applyGlyphInversion('HASSAAN')}
+            {applySlashRule('ABOUT')} {applyGlyphInversion('QASIM')}
           </h2>
           <div className="about-social-tier">
             <span className="social-label mono-label">DOWNLOAD RESUME</span>
-            <a href="/hassaanmughal-resume.pdf" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Download resume">
+            <a href="/Muhammad%20Qasim%20Wassay-%20palacement%20CV.pdf" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Download resume">
               <img src="/resume-business-cv-work-job-curriculum-2-svgrepo-com.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
             </a>
             <span className="social-label mono-label">CONNECT WITH ME</span>
@@ -30,17 +28,11 @@ const Stage4About = () => {
               <a href={SOCIAL.github} className="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <img src="/icons/github-logo.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
               </a>
-              <a href={SOCIAL.linkedin} className="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <img src="/linkedin-svgrepo-com.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
-              </a>
-              <a href="mailto:hassaanm980@gmail.com" className="social-link" aria-label="Email">
+              <a href="mailto:mwassay02@qub.ac.uk" className="social-link" aria-label="Email">
                 <img src="/mail-svgrepo-com.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
               </a>
               <a href={SOCIAL.instagram} className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <img src="/instagram-logo-facebook-2-svgrepo-com.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
-              </a>
-              <a href={SOCIAL.twitter} className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <img src="/twitter-svgrepo-com.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
               </a>
             </div>
           </div>

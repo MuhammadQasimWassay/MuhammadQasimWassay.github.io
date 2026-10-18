@@ -73,7 +73,7 @@ const Navigation = ({ navMode = 'spread', route = '/', heroReveal = 0, onNavigat
       <nav className="navigation navigation--about navigation--branded" style={{ backgroundColor: theme === 'light' ? 'rgba(224,224,224,0.85)' : 'rgba(0,0,0,0.75)' }}>
         <div className="navigation__inner navigation__inner--branded about-nav-inner">
           <div className="nav-slot nav-slot--start about-nav-group">
-            <NavLink href="/" label="HASSAAN" onClick={handleNavigate('/', '#hero')} />
+            <NavLink href="/" label="QASIM" onClick={handleNavigate('/', '#hero')} />
           </div>
           <div className="nav-slot nav-slot--end about-nav-group">
             <NavLink href="/" label="PROJECTS" onClick={handleNavigate('/', '#projects')} />

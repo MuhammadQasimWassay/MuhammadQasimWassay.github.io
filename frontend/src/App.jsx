@@ -9,12 +9,12 @@ import './index.css';
 
 const routeMeta = {
   '/': {
-    title: 'Hassaan Mughal | AI Engineer & Full-Stack Developer',
-    description: 'Portfolio of Hassaan Mughal, an AI engineer and full-stack developer specializing in optimized MERN backends and high-impact web experiences.',
+    title: 'Muhammad Qasim Wassay | AI Engineer & Full-Stack Developer',
+    description: 'Portfolio of Muhammad Qasim Wassay, an AI engineer and full-stack developer specializing in optimized MERN backends and high-impact web experiences.',
   },
   '/about': {
-    title: 'About Hassaan Mughal | AI Engineer & Full-Stack Developer',
-    description: 'Learn more about Hassaan Mughal, his education, skills, capabilities, and professional background.',
+    title: 'About Muhammad Qasim Wassay | AI Engineer & Full-Stack Developer',
+    description: 'Learn more about Muhammad Qasim Wassay, his education, skills, capabilities, and professional background.',
   },
 };
 
@@ -110,24 +110,22 @@ function App() {
         '@graph': [
           {
             '@type': 'Person',
-            name: 'Hassaan Mughal',
+            name: 'Muhammad Qasim Wassay',
             jobTitle: 'AI Engineer & Full-Stack Developer',
             url: canonicalUrl,
             sameAs: [
-              'https://github.com/cookhassaanmughal',
-              'https://www.linkedin.com/in/hassaan-mughal-605603249/',
-              'https://www.instagram.com/hasaannmughal/',
-              'https://x.com/hassaanmughal_',
+              'https://github.com/MuhammadQasimWassay',
+              'https://www.instagram.com/shiekh__qasim?rpxt=MTFteWJuMDhqNXk2cA%3D%3D&utm_source=qr',
             ],
             description: route.description,
           },
           {
             '@type': 'WebSite',
-            name: 'Hassaan Mughal Portfolio',
+            name: 'Muhammad Qasim Wassay Portfolio',
             url: canonicalUrl,
             about: {
               '@type': 'Person',
-              name: 'Hassaan Mughal',
+              name: 'Muhammad Qasim Wassay',
             },
             potentialAction: {
               '@type': 'SearchAction',

@@ -4,7 +4,7 @@ import { applySlashRule, applyGlyphInversion } from '../utils/textUtils';
 import './Stage7Contact.css';
 
 const SOCIAL = {
-  linkedin: 'https://www.linkedin.com/in/hassaan-mughal-605603249/',
+  instagram: 'https://www.instagram.com/shiekh__qasim?rpxt=MTFteWJuMDhqNXk2cA%3D%3D&utm_source=qr',
 };
 
 const scrollToTop = (e) => {
@@ -24,7 +24,7 @@ const Footer = ({ onNavigate }) => {
     <div className="footer-fluid" style={{ position: 'relative', zIndex: 10 }}>
       <div className="footer-three-point safe-area">
         <span className="footer-copy mono-label">
-          ©2026 {applyGlyphInversion('HASSAAN')}
+          ©2026 {applyGlyphInversion('QASIM')}
         </span>
         <nav className="footer-nav">
           <Link to="/about" className="footer-nav-link mono-label" onClick={handleNav('/about')}>
@@ -33,7 +33,7 @@ const Footer = ({ onNavigate }) => {
           <Link to="/#projects" className="footer-nav-link mono-label" onClick={handleNav('/', '#projects')}>
             [ {applySlashRule('ALL PROJECTS')} ]
           </Link>
-          <a href={SOCIAL.linkedin} className="footer-nav-link mono-label" target="_blank" rel="noopener noreferrer">
+          <a href={SOCIAL.instagram} className="footer-nav-link mono-label" target="_blank" rel="noopener noreferrer">
             [ LET&apos;S CONNECT ]
           </a>
         </nav>

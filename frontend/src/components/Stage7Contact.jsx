@@ -5,8 +5,7 @@ import Footer from './Footer';
 import './Stage7Contact.css';
 
 const SOCIAL = {
-  github: 'https://github.com/cookhassaanmughal',
-  linkedin: 'https://www.linkedin.com/in/hassaan-mughal-605603249/',
+  github: 'https://github.com/MuhammadQasimWassay',
 };
 
 const Stage7Contact = ({ onNavigate }) => {
@@ -18,7 +17,7 @@ const Stage7Contact = ({ onNavigate }) => {
           Have a project in mind?<br />
           Let&apos;s build something remarkable together.
         </h2>
-        <a href="mailto:hassaanm980@gmail.com" className="contact-cta mono-label" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:mwassay02@qub.ac.uk" className="contact-cta mono-label" target="_blank" rel="noopener noreferrer">
           LET&apos;S CHAT
         </a>
         <StructuralNode size={14} color="#fff" className="contact-node" />
@@ -26,7 +25,7 @@ const Stage7Contact = ({ onNavigate }) => {
 
       <div className="social-tier">
         <span className="social-label mono-label">DOWNLOAD RESUME</span>
-        <a href="/hassaanmughal-resume.pdf" className="social-link mono-label" target="_blank" rel="noopener noreferrer" aria-label="Download resume">
+        <a href="/Muhammad%20Qasim%20Wassay-%20palacement%20CV.pdf" className="social-link mono-label" target="_blank" rel="noopener noreferrer" aria-label="Download resume">
           <img src="/resume-business-cv-work-job-curriculum-2-svgrepo-com.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
         </a>
         <span className="social-label mono-label">MORE ABOUT ME?</span>
@@ -34,10 +33,7 @@ const Stage7Contact = ({ onNavigate }) => {
           <a href={SOCIAL.github} className="social-link mono-label" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <img src="/icons/github-logo.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
           </a>
-          <a href={SOCIAL.linkedin} className="social-link mono-label" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <img src="/linkedin-svgrepo-com.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
-          </a>
-          <a href="mailto:hassaanm980@gmail.com" className="social-link mono-label" aria-label="Email">
+          <a href="mailto:mwassay02@qub.ac.uk" className="social-link mono-label" aria-label="Email">
             <img src="/mail-svgrepo-com.svg" alt="" className="social-icon" loading="lazy" decoding="async" aria-hidden="true" />
           </a>
         </div>
